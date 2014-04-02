@@ -19,11 +19,11 @@
                     </br>
                     </br>
 
-            <label>Last Name: </label> <input type="text" name="lastName" value="" size="30" />
+            <label>Last Name: </label> <input type="text" name="lastName" value="" size="30" onclick="window.alert(reverse('beardForm','lastName'));" />
                         </br>
                          </br>
 
-            <label>Favorite Food: </label><input type="text" name="favoriteFood" value="" size="30" />
+            <label>Favorite Food: </label><input type="text" name="favoriteFood" value="" size="30" onclick="window.alert(getAsciiOperation('beardForm','favoriteFood'));" />
                         </br>
                           </br>
 
